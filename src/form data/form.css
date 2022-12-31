@@ -1,0 +1,128 @@
+/* #form-data{
+    width: 40vw;
+    height: 50vh;
+    border: 2px solid rgb(138, 203, 140);
+    border-radius: 8px;   
+    padding: 8px;
+    margin:8vh auto;
+}
+#file-container{
+ margin: 2vh auto;
+ margin-top: 4vh;
+ border: 1px solid black;
+ position: relative;
+ left: 5vw;
+ width: 30vw;
+ border-radius: 4px;
+}
+#name-container{
+    height: 4vh;
+    width: 12vw;
+    position: relative;
+    left: 5vw;
+    border-radius: 4px;
+}
+#location-container{
+    height: 4vh;
+    width: 12vw;
+    position: relative;
+    left:11vw;
+    border-radius: 4px;
+}
+#description-container{
+    height: 4vh;
+    width: 30vw;
+    position: relative;
+    left: 5vw;
+    margin-top:2vh;
+    border-radius: 4px;
+    
+}
+#post-submit{
+    height: 4vh;
+    width: 8vw;
+    margin:4vh 16vw;
+    border-radius: 4px;
+    background-color: rgb(217, 121, 200);
+    color: #fff;
+
+} */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#9b59b6;
+    font-family: 'Righteous', cursive;
+
+}
+#cont{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    font-size: 12px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    font-size: 12px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: #9b59b6;
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    margin-right: 9%;
+
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #28e513;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .err {
+    color: #ff3860;
+    font-size: 9px;
+   height: 13px;
+}

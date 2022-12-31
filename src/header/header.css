@@ -1,0 +1,49 @@
+.header-container{
+     width:40vw;
+     height:10vh;
+     background-color: antiquewhite;
+     padding:2px;
+     display:flex;
+     align-items: center;
+     border-radius:4px;
+    }
+    .insta-logo{
+       width:150px;
+    }
+    .camera-logo{
+       width:50px;
+       margin-left: auto;
+       margin-right:30px;
+    }
+    img{
+       height:100%;
+       width:100%;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+    
+    .active {
+      background-color: #04AA6D;
+    }
